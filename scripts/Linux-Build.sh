@@ -1,6 +1,4 @@
 #!/bin/bash
 
-echo 'whoami'
-
-vendor/bin/premake/premake5 gmake2
-make
+sudo vendor/bin/premake/premake5 gmake2
+sudo make

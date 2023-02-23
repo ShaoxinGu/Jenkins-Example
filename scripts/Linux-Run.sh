@@ -1,3 +1,3 @@
 #!/bin/bash
 
-bin/Debug/HelloWorld
+sudo bin/Debug/HelloWorld
