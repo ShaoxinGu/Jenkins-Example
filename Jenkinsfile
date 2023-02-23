@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'echo "Building..."'
                 sh 'chmod +x scripts/Linux-Build.sh'
+                sh 'chmod +x vendor/bin/premake/premake5'
                 sh 'scripts/Linux-Build.sh'
                 archiveArtifacts artifacts: 'bin/Debug/*', fingerprint:true
             }
